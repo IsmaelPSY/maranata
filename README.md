@@ -41,6 +41,7 @@ Esta sera la aplicacion web para la iglesia evangelica Maranata de Puerto Maldon
 - Fotos con las familias beneficiadas
 
 ### Contactos (Ismael)
+- Ubicacion de la iglesia
 - correo de la iglesia
 - numero de telefonod de la iglesia
 - Redes sociales

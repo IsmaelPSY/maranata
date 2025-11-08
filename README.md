@@ -10,7 +10,7 @@ Esta sera la aplicacion web para la iglesia evangelica Maranata de Puerto Maldon
 - Versiculo que se actualice diariamente
 - Mision y Vision de la Iglesia
 - Horario de los cultos
-- Pastores
+- Pastor Actual
 - Agregar buzon para recibir mensajes
 
 ### Historia (Noelia)
@@ -22,9 +22,10 @@ Esta sera la aplicacion web para la iglesia evangelica Maranata de Puerto Maldon
 - Escuela Dominical
 - Ministerio de Alabanza
 - Ministerio de Ujieres
-- Ministerios de Jovenes
-- Ministerios de Diaconos
-- Ministerios de Evangelismo
+- Ministerio de Jovenes
+- Ministerio de Diaconos
+- Ministerio de Evangelismo
+- Ministerio de Misiones
 
 ### Eventos/Actividades (Melina)
 - Descripcion de los tipos de eventos/talleres/capacitaciones

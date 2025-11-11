@@ -18,6 +18,33 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
 - **Headlines (títulos)**: Font family `'Poppins', sans-serif`
 - **Body (texto)**: Font family `'Open Sans', sans-serif`
 
+## Custom Scrollbar
+
+### `::-webkit-scrollbar`
+- **Propósito**: Ancho de la barra de scroll (navegadores Webkit: Chrome, Safari, Edge)
+- **Estilos**:
+  - `width: 12px`
+
+### `::-webkit-scrollbar-track`
+- **Propósito**: Fondo/pista del scrollbar
+- **Estilos**:
+  - `background: var(--color-bg-light)`
+  - `border-left: 1px solid #E5E7EB`
+
+### `::-webkit-scrollbar-thumb`
+- **Propósito**: La barra que se mueve dentro del scrollbar
+- **Estilos**:
+  - `background: var(--color-primary)`
+  - `border-radius: 6px`
+  - `border: 2px solid var(--color-bg-light)`
+  - **Hover**: `background: var(--color-accent)`
+
+### Firefox Scrollbar
+- **Propósito**: Scrollbar personalizado para Firefox
+- **Estilos**:
+  - `scrollbar-width: thin`
+  - `scrollbar-color: var(--color-primary) var(--color-bg-light)`
+
 ## Sistema de Clases
 
 ### Layout General

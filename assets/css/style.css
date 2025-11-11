@@ -103,6 +103,19 @@ section {
 
 .nav-logo {
   color: white;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo-img {
+  height: 50px;
+  width: auto;
+}
+
+.nav-logo-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-logo h2 {
@@ -635,6 +648,10 @@ section {
 
   .nav-container {
     height: 80px;
+  }
+
+  .nav-logo-img {
+    height: 60px;
   }
 
   .nav-toggle {

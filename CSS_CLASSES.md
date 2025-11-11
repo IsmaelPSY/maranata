@@ -70,9 +70,24 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
   - `height: 70px` (móvil), `80px` (desktop)
 
 #### `.nav-logo`
-- **Propósito**: Logo y nombre de la iglesia
+- **Propósito**: Contenedor del logo y nombre de la iglesia
 - **Estilos**:
   - `color: white`
+  - `display: flex`
+  - `align-items: center`
+  - `gap: 12px`
+
+#### `.nav-logo-img`
+- **Propósito**: Imagen del logo de la iglesia en la navegación
+- **Estilos**:
+  - `height: 50px` (móvil), `60px` (tablet 768px+)
+  - `width: auto`
+
+#### `.nav-logo-text`
+- **Propósito**: Contenedor del texto del logo (nombre e iglesia y lema)
+- **Estilos**:
+  - `display: flex`
+  - `flex-direction: column`
   - `h2`: `font-family: 'Poppins'`, `font-size: 1.2rem`, `margin: 0`
 
 #### `.nav-motto`

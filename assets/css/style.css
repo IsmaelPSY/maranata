@@ -80,7 +80,7 @@ section {
 }
 
 /* ============================================
-   Navegación
+   Navegaciï¿½n
    ============================================ */
 .navbar {
   position: fixed;
@@ -173,7 +173,7 @@ section {
 }
 
 /* ============================================
-   Títulos de Sección
+   Tï¿½tulos de Secciï¿½n
    ============================================ */
 .section-title {
   font-family: 'Poppins', sans-serif;
@@ -194,7 +194,7 @@ section {
 }
 
 /* ============================================
-   Sección Home
+   Secciï¿½n Home
    ============================================ */
 .hero {
   text-align: center;
@@ -305,6 +305,19 @@ section {
   margin-top: 20px;
 }
 
+.pastor-photo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pastor-photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+}
+
 .schedule {
   margin: 40px 0;
 }
@@ -357,7 +370,7 @@ section {
 }
 
 /* ============================================
-   Sección Historia
+   Secciï¿½n Historia
    ============================================ */
 .history-content {
   max-width: 800px;
@@ -393,7 +406,7 @@ section {
 }
 
 /* ============================================
-   Sección Ministerios
+   Secciï¿½n Ministerios
    ============================================ */
 .ministerios-intro {
   max-width: 900px;
@@ -461,7 +474,7 @@ section {
 }
 
 /* ============================================
-   Sección Misiones
+   Secciï¿½n Misiones
    ============================================ */
 .mision-item {
   background: white;
@@ -498,7 +511,7 @@ section {
 }
 
 /* ============================================
-   Sección Kilo de Amor
+   Secciï¿½n Kilo de Amor
    ============================================ */
 .kilo-content {
   max-width: 800px;
@@ -543,7 +556,7 @@ section {
 }
 
 /* ============================================
-   Sección Contactos
+   Secciï¿½n Contactos
    ============================================ */
 .contact-grid {
   display: grid;

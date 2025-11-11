@@ -16,7 +16,7 @@ _Buscar la llenura del Espíritu Santo. Discipular a los nuevos creyentes en Cri
 
 ## Pastor y esposa
 - Segundo Pedro Sanchez Grifa y Karina Yucra Salas
-- Foto de pastor y esposa
+- ![Pastor y Esposa](./assets/img/pastor_y_pastora.jpg)
 
 ## Horarios
 - Martes (7:00PM - 8:30PM): Culto de Oración

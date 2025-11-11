@@ -240,7 +240,7 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
   - `margin: 15px 0`
 
 #### `.pastor-photo-placeholder`
-- **Propósito**: Placeholder para foto del pastor
+- **Propósito**: Placeholder para foto del pastor (cuando la imagen no está disponible)
 - **Estilos**:
   - `background: var(--color-bg-light)`
   - `padding: 60px 20px`
@@ -249,6 +249,13 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
   - `color: var(--color-text-light)`
   - `text-align: center`
   - `margin-top: 20px`
+
+#### `.pastor-photo`
+- **Propósito**: Contenedor de la foto del pastor y esposa
+- **Estilos**:
+  - `margin-top: 20px`
+  - `text-align: center`
+  - `img`: `max-width: 100%`, `height: auto`, `border-radius: 10px`, `box-shadow: 0 4px 12px rgba(0,0,0,0.15)`, `max-width: 500px`
 
 #### `.schedule`
 - **Propósito**: Horarios de cultos

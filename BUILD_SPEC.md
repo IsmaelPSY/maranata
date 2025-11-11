@@ -155,11 +155,13 @@ Las secciones DEBEN aparecer en este orden exacto:
    <div class="pastor-info">
      <h3>Pastor y Esposa</h3>
      <p class="pastor-names">[nombres]</p>
-     <div class="pastor-photo-placeholder">
-       <p>[Foto del pastor y esposa]</p>
+     <div class="pastor-photo">
+       <img src="./assets/img/pastor_y_pastora.jpg" alt="Pastor Segundo Pedro Sanchez Grifa y Esposa Karina Yucra Salas">
      </div>
    </div>
    ```
+
+   **Nota**: Si la imagen no está disponible, usar `.pastor-photo-placeholder` en su lugar.
 
 8. **Horarios** (sección `## Horarios`):
    ```html

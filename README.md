@@ -5,7 +5,7 @@ Esta sera la aplicacion web para la iglesia evangelica Maranata de Puerto Maldon
 
 ## Estructura del sitio web
 
-### Home (pagina principal) (Ismael)
+### Home (pagina principal) (Ismael) - [Ver contenido](Home.md)
 - Bienvenida
 - Versiculo que se actualice diariamente
 - Mision y Vision de la Iglesia
@@ -13,11 +13,11 @@ Esta sera la aplicacion web para la iglesia evangelica Maranata de Puerto Maldon
 - Pastor Actual
 - Agregar buzon para recibir mensajes
 
-### Historia (Noelia)
+### Historia (Noelia) - [Ver contenido](Historia.md)
 - Fundacion de la iglesia
 - Historial de Pastores
 
-### Ministerios (Melina)
+### Ministerios (Melina) - [Ver contenido](Ministerios.md)
 - Parrafo que induzca a que se involucren en algun ministerio
 - Escuela Dominical
 - Ministerio de Alabanza
@@ -33,15 +33,15 @@ Esta sera la aplicacion web para la iglesia evangelica Maranata de Puerto Maldon
 - Futuros talleres/capacitaciones
 - Eventos/Talleres/Capacitaciones pasadas
 
-### Misiones (Noelia)
+### Misiones (Noelia) - [Ver contenido](Misiones.md)
 - Mision en puerto Nuevo
 - Mision en Loero
 
-### Kilo de amor (Ismael)
+### Kilo de amor (Ismael) - [Ver contenido](Kilo%20de%20amor.md)
 - Contacto para recibir donaciones
 - Fotos con las familias beneficiadas
 
-### Contactos (Ismael)
+### Contactos (Ismael) - [Ver contenido](Contactos.md)
 - Ubicacion de la iglesia
 - correo de la iglesia
 - numero de telefonod de la iglesia

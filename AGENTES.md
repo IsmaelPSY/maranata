@@ -11,3 +11,5 @@
 - Frontend: HTML, CSS, y JavaScript puros (sin backend ni base de datos).
 - Estructura modular: una carpeta /assets para imágenes y estilos.
 - Compatibilidad: dispositivos móviles primero (diseño responsive).
+
+### Modo de desarrollo

@@ -355,11 +355,11 @@ section {
 }
 
 .pastor-photo img {
-  max-width: 100%;
+  width: 75%;
+  max-width: 75%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  max-width: 500px;
 }
 
 .schedule {
@@ -744,6 +744,11 @@ section {
 
   .contact-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pastor-photo img {
+    width: 400px;
+    max-width: 400px;
   }
 }
 

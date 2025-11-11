@@ -27,10 +27,11 @@ This is a single-page static website for Iglesia Evangelica Maranata in Puerto M
 
 ## Technology Stack
 
-- **Frontend**: Pure HTML, CSS, and JavaScript (no frameworks)
-- **Fonts**: Poppins (headlines), Open Sans (body text)
+- **Frontend**: Pure HTML, CSS, and JavaScript (no frameworks, no build tools)
+- **Fonts**: Poppins (headlines), Open Sans (body text) - loaded from Google Fonts
 - **Design**: Mobile-first responsive design
-- **Structure**: Modular with `/assets` directory for images and styles
+- **Structure**: Single-page architecture with anchor-based navigation
+- **JavaScript**: Vanilla JS for mobile menu toggle and active section highlighting (`/assets/js/script.js`)
 
 ## Design System
 
@@ -45,50 +46,28 @@ Typography:
 
 ## Site Structure
 
-The website is a single-page application with the following sections (accessible via anchor navigation #home, #historia, #ministerios, etc.):
+The website is a single-page application with anchor-based navigation. Content source files are `.md` files that get compiled into `index.html` sections:
 
-1. **Home** (Home.md) - Main landing page
-   - Welcome message
-   - Daily verse (needs to update automatically - future feature)
-   - Mission and Vision
-   - Service schedule
-   - Current pastor information
-   - Message inbox
+1. **Home** (Home.md → #home) - Main landing page with welcome, mission/vision, pastor info, and service schedule
+2. **Historia** (Historia.md → #historia) - Church history and pastors timeline
+3. **Ministerios** (Ministerios.md → #ministerios) - Seven church ministries with leaders
+4. **Misiones** (Misiones.md → #misiones) - Mission work in Puerto Nuevo and Loero communities
+5. **Kilo de Amor** (Kilo de amor.md → #kilo-amor) - Food donation program
+6. **Contactos** (Contactos.md → #contactos) - Contact information and location
+7. **Eventos/Actividades** (eventos.md - planned, not yet compiled)
 
-2. **Historia** (Historia.md) - Church history
-   - Foundation by Swiss missionaries Wesley and Margaria (July 14, 1967)
-   - Timeline of pastors: Pedro Condori (first), David Perry, Juan Ore (until 2019), Segundo Pedro Sanchez Grifa (2020-present)
+### Navigation
+- Fixed navbar with logo and menu links
+- Mobile-responsive hamburger menu
+- Active section highlighting on scroll
+- Smooth scroll between sections (CSS `scroll-behavior: smooth`)
 
-3. **Ministerios** (Ministerios.md) - Church ministries
-   - Escuela Dominical (Sunday School) - Led by Hna. Karina
-   - Alabanza (Worship) - Led by Hno. Joel
-   - Ujieres (Ushers) - Led by Hna. Clara
-   - Jovenes (Youth) - Led by Hna. Doris
-   - Diaconos (Deacons) - Led by Hno. Gerald & Hna. Gins Paola
-   - Evangelismo (Evangelism) - Leader TBD
-   - Misiones (Missions) - Leader TBD
+## Source Files vs. Compiled Output
 
-4. **Eventos/Actividades** (planned, not yet created)
-   - Event types/workshops/training
-   - Upcoming and past events
-
-5. **Misiones** (Misiones.md) - Mission work
-   - Puerto Nuevo community (Rio Piedras area)
-   - Loero community (near Botafogo beach)
-
-6. **Kilo de Amor** (Kilo de amor.md) - Food donation program
-   - Non-perishable food collection for families in need
-   - Donation drop-off at church
-
-7. **Contactos** (Contactos.md) - Contact information
-   - Email: segundopedrosanchez763@gmail.com
-   - WhatsApp: 913861855
-   - Address: Jr Puno N°374 con Av. Dos de Mayo N°400
-   - Social media (Facebook, Instagram)
-
-## Content Files
-
-Content source files are stored in Markdown files (.md) at the root level for reference. The actual content has been integrated into index.html as individual sections. The .md files serve as content documentation and can be used for future updates.
+- **Source**: `.md` files at root level (Home.md, Historia.md, etc.) - these are the single source of truth for content
+- **Compiled**: `index.html` - generated from .md files following BUILD_SPEC.md
+- **Workflow**: Edit .md files → Recompile to index.html → Test in browser → Commit both
+- **Important**: When updating content, ALWAYS edit the .md files first, never edit index.html directly
 
 ## Build Process (Deterministic Compilation)
 
@@ -112,11 +91,27 @@ To compile the MD files into index.html:
 
 ## Development Workflow
 
-- **Content changes**: Edit `.md` files, then recompile to `index.html`
-- **Style changes**: Edit `/assets/css/style.css` following [CSS_CLASSES.md](CSS_CLASSES.md)
-- **Images**: Add to `/assets/img/` directory
-- **Preview**: Open index.html in a browser
-- **Navigation**: Uses smooth scroll to anchor links (#section-id)
+### Content Changes
+1. Edit the relevant `.md` file (Home.md, Historia.md, etc.)
+2. Recompile to `index.html` following [BUILD_SPEC.md](BUILD_SPEC.md)
+3. Test locally by opening index.html in a browser
+
+### Style Changes
+1. Edit `/assets/css/style.css` following [CSS_CLASSES.md](CSS_CLASSES.md)
+2. Refresh browser to see changes
+
+### Assets Structure
+- `/assets/css/` - Stylesheets (style.css)
+- `/assets/img/` - Images (logo_maranata.png, pastor_y_pastora.jpg, etc.)
+- `/assets/js/` - JavaScript (script.js handles mobile nav and active section highlighting)
+
+### Testing Locally
+Simply open `index.html` in any modern browser. No build process or server required since this is a pure static site.
+
+### Git Workflow
+- Commit changes to `.md` files and compiled `index.html` together
+- Main branch: `main`
+- Include descriptive commit messages referencing the section changed
 
 ## Future Features
 
@@ -134,11 +129,9 @@ Content ownership by section (from README.md):
 
 ## Important Notes
 
-- Single-page architecture: All sections are in index.html with anchor-based navigation
-- Navigation menu is fixed/sticky and highlights the current section
-- Smooth scrolling between sections for better UX
-- Images need to be added to `/assets/img/` directory
-- Mobile-first responsive design approach
-- All content is in Spanish
-- The church motto is "CRISTO VIENE PRONTO" (Christ is Coming Soon)
-- No separate HTML pages - everything in one file for simplicity
+- **Language**: All content is in Spanish
+- **Church Motto**: "CRISTO VIENE PRONTO" (Christ is Coming Soon)
+- **No Build Tools**: Pure static HTML/CSS/JS - no npm, webpack, or other tooling
+- **Browser Compatibility**: Modern browsers only (uses CSS Grid, custom properties, smooth scroll)
+- **Mobile-First**: Responsive breakpoints at 768px (tablet) and 1024px (desktop)
+- **Images**: Logo at `/assets/img/logo_maranata.png`, pastor photo at `/assets/img/pastor_y_pastora.jpg`

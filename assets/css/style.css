@@ -96,16 +96,20 @@ section {
   background: white;
 }
 
-.section-misiones {
+.section-eventos {
   background: var(--color-bg-light);
 }
 
-.section-kilo-amor {
+.section-misiones {
   background: white;
 }
 
-.section-contactos {
+.section-kilo-amor {
   background: var(--color-bg-light);
+}
+
+.section-contactos {
+  background: white;
 }
 
 /* ============================================
@@ -515,6 +519,106 @@ section {
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--color-text);
+}
+
+.ministerio-ambientes {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.ministerio-ambientes li {
+  padding: 8px 0;
+  padding-left: 15px;
+  border-left: 2px solid var(--color-accent);
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+/* ============================================
+   Sección Eventos
+   ============================================ */
+.eventos-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.evento-item {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid var(--color-accent);
+}
+
+.evento-item h3 {
+  color: var(--color-primary);
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.evento-item ul {
+  line-height: 1.8;
+  margin: 15px 0;
+}
+
+.evento-item li {
+  margin-bottom: 8px;
+}
+
+.evento-subitem {
+  background: rgba(30, 58, 138, 0.03);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  border-left: 3px solid var(--color-primary);
+}
+
+.evento-subitem h4 {
+  color: var(--color-primary);
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.evento-verse {
+  font-size: 0.95rem;
+  color: var(--color-accent);
+  font-style: italic;
+  margin: 15px 0;
+  padding: 12px;
+  background: rgba(217, 119, 6, 0.08);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 4px;
+}
+
+.evento-destacado {
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.05), rgba(217, 119, 6, 0.05));
+  border-left: 4px solid var(--color-primary);
+}
+
+.evento-subtitulo {
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.evento-detalles {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.evento-detalles p {
+  margin: 8px 0;
+  line-height: 1.6;
 }
 
 /* ============================================

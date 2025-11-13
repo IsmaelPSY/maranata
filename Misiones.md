@@ -1,5 +1,5 @@
 # MISIONES
-## Comunidades Indigenas
+## Comunidades Indígenas
 - Comunidad Indígena Puerto Nuevo
 
 Ubicación:
@@ -32,6 +32,6 @@ Cultos y alabanzas: tiempos de adoración y enseñanza bíblica con adultos y j�
 
 Obra teatral y coreografías: representaciones con temas de fe, amor y esperanza.
 
-Apoyo comunitario: corte de cabello, viveres y regalos para los niños.
+Apoyo comunitario: corte de cabello, víveres y regalos para los niños.
 
 Predicación y consejería espiritual: acompañamiento pastoral y oración por las familias.

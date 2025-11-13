@@ -18,6 +18,75 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
 - **Headlines (títulos)**: Font family `'Poppins', sans-serif`
 - **Body (texto)**: Font family `'Open Sans', sans-serif`
 
+## Modern List Styles
+
+### `ul` (Listas desordenadas globales)
+- **Propósito**: Estilo moderno para todas las listas desordenadas del sitio con fondo sutil y borde acento
+- **Estilos**:
+  - `list-style: none` (remueve viñetas por defecto)
+  - `padding-left: 0`
+  - `margin-left: 0`
+  - `background: rgba(217, 119, 6, 0.03)` (fondo dorado muy sutil)
+  - `border-left: 3px solid var(--color-accent)` (borde dorado)
+  - `border-radius: 6px`
+  - `padding: 15px 20px`
+  - `margin-bottom: 20px`
+
+### `ul li` (Items de lista)
+- **Propósito**: Items de lista con viñetas personalizadas modernas
+- **Estilos**:
+  - `position: relative`
+  - `padding-left: 25px`
+  - `margin-bottom: 12px`
+  - `line-height: 1.7`
+  - `list-style: none` (sin viñetas por defecto)
+
+### `ul li::before` (Viñeta personalizada)
+- **Propósito**: Viñeta circular moderna en color accent
+- **Estilos**:
+  - `content: ""`
+  - `position: absolute`
+  - `left: 0`
+  - `top: 10px`
+  - `width: 8px`
+  - `height: 8px`
+  - `background: var(--color-accent)` (dorado suave)
+  - `border-radius: 50%` (círculo perfecto)
+  - `transition: transform 0.2s ease`
+  - **Hover**: `transform: scale(1.3)`, `background: var(--color-primary)` (cambia a azul y aumenta tamaño)
+
+### `ul ul` (Listas anidadas)
+- **Propósito**: Sublistas dentro de listas con borde azul más delgado
+- **Estilos**:
+  - `margin-top: 8px`
+  - `margin-bottom: 8px`
+  - `background: transparent` (sin fondo para evitar duplicación)
+  - `border-left: 2px solid var(--color-primary)` (borde azul más delgado)
+  - `padding: 8px 15px`
+  - `margin-left: 10px`
+
+### `ul ul li::before` (Viñetas de sublistas)
+- **Propósito**: Viñetas más pequeñas para listas anidadas
+- **Estilos**:
+  - `width: 6px`
+  - `height: 6px`
+  - `background: var(--color-primary)` (azul)
+  - `top: 11px`
+
+### Excepciones (Listas con funcionalidad específica)
+- **Propósito**: Mantener listas sin viñetas personalizadas ni fondos cuando tienen funcionalidad específica (navegación, horarios, etc.)
+- **Clases excluidas**: `.nav-menu`, `.schedule-list`, `.pastor-list`, `.social-links`, `.ministerio-ambientes`
+- **Estilos aplicados a las listas**:
+  - `background: transparent`
+  - `border-left: none`
+  - `padding: 0`
+  - `margin: 0`
+  - `list-style: none`
+- **Estilos aplicados a los items**:
+  - `list-style: none`
+  - `padding-left: 0`
+  - `::before { content: none; display: none; }` (sin viñetas personalizadas)
+
 ## Custom Scrollbar
 
 ### `::-webkit-scrollbar`

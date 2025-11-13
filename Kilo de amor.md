@@ -7,7 +7,7 @@ Cuando compartimos lo que tenemos, mostramos al mundo que el amor de Cristo sigu
 
 _**“Y no nos cansemos de hacer el bien…” – Gálatas 6:9**_
 
-Puede dejar sus donaciones directamente en la iglesia ubicada en Jr Puno N° XXX
+Puede dejar sus donaciones directamente en la iglesia ubicada en Jr Puno N°374 con Av. Dos de Mayo N°400
 
 
 - (Agregamos fotos de las personas que han sido beneficiadas)

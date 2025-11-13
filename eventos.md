@@ -16,14 +16,14 @@ Promueven la dependencia de Dios y la sensibilidad espiritual.
 Horarios: MARTES 6:00PM VIERNES 4:00PM
 
 ## Estudios bíblicos en grupos pequeños
-Reuniones en hogares o en la iglesia para estudiar la Biblia de manera más profunda e interactiva con niños,adolescentes, jovenes y adultos.
-Actividad que te permitira fortalecer la fe, el compañerismo y la comprensión de la Palabra.
+Reuniones en hogares o en la iglesia para estudiar la Biblia de manera más profunda e interactiva con niños, adolescentes, jóvenes y adultos.
+Actividad que te permitirá fortalecer la fe, el compañerismo y la comprensión de la Palabra.
 
 ### Escuela de discipulado
 Enseñanza sistemática sobre los fundamentos de la fe cristiana: salvación, bautismo, oración, servicio y otros.
 
 Ideal para nuevos creyentes y miembros en crecimiento.
-TODOS LOS SÀBADOS 6:00 A 7:00PM
+TODOS LOS SÁBADOS 6:00 A 7:00PM
 
 ### Reunión de niños y adolescentes "HORAS FELICES"
 Tiempos de enseñanza bíblica, oración, alabanzas y actividades dinámicas con el objetivo de fortalecer la fe, fomentar valores cristianos, promover la amistad y el compañerismo en un ambiente familiar y de crecimiento espiritual.
@@ -44,22 +44,22 @@ Todos los Lunes 7:30PM - Iglesia Evangélica Maranatha
 ## Ayunos congregacionales
 Días de ayuno dedicados a buscar dirección, renovación espiritual o respuesta a necesidades específicas.
 Permite el desarrollo espiritual y comunión con Dios.
-SÀBADOS 8:00 AM Y FIN DE CADA MES
+SÁBADOS 8:00 AM Y FIN DE CADA MES
 
-## Capacitaciòn y talleres Proximas
+## Capacitación y talleres próximos
 ### Curso de misiones
 Escuela nocturna VIDA ABUNDANTE ARRAIGADOS - JOCUM MISIONES 
 ¡Este es tu tiempo para crecer y afirmarte en la fe! ¡No te quedes fuera!
 Efesios 3:17 "para que habite Cristo por la fe en vuestros corazones, a fin de que, arraigados y cimentados en amor"
 Fecha: 17 de Noviembre al 05 de Diciembre (Lunes,Martes, Miercoles y Viernes) 
 Horario: 7:00 a 9:00 PM
-Inscripciones : 50 Soles
-Lugar: Iglesia Maranata - Av. Dos de mayo, esquina con Jr. Puno
-Informaciòn: Hna.Shierly Peñareal (926311060)
+Inscripciones: 50 Soles
+Lugar: Iglesia Maranata - Av. Dos de Mayo, esquina con Jr. Puno
+Información: Hna. Shierly Peñareal (926311060)
 
 ### MARANATA KIDS 2026
 Evento próximo "MARANATA KIDS 2026, donde el centro de la enseñanza es presentar, exaltar a Jesús y conocer de su amor. 
 Ven y Celebremos a Jesús juntos este cierre de año lleno de bendiciones. Este encuentro reunirá a niños y adolescentes de nuestra iglesia para compartir un tiempo de alegría, compañerismo y gratitud a Dios. Será una jornada especial de confraternidad, alabanzas y reconocimiento a todos los que participaron activamente durante el año en los distintos ministerios infantiles y juveniles.
 Lugar: Iglesia Evangélica Maranata
 Fecha: Sábado 20 de Diciembre del 2025.
-Hora : 3:30 p.m
+Hora: 3:30 p.m.

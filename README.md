@@ -1,53 +1,60 @@
-# IGLESIA EVANGELICA MARANATA DE PUERTO MALDONADO
+# IGLESIA EVANGÉLICA MARANATA DE PUERTO MALDONADO
 ## CRISTO VIENE PRONTO
 
-Esta sera la aplicacion web para la iglesia evangelica Maranata de Puerto Maldonado.
+Esta será la aplicación web para la iglesia evangélica Maranata de Puerto Maldonado.
 
 ## Estructura del sitio web
 
-### Home (pagina principal) (Ismael) - [Ver contenido](Home.md)
+### Home (página principal) (Ismael) - [Ver contenido](Home.md)
 - Bienvenida
-- Versiculo que se actualice diariamente
-- Mision y Vision de la Iglesia
+- Versículo que se actualice diariamente
+- Misión y Visión de la Iglesia
 - Horario de los cultos
 - Pastor Actual
-- Agregar buzon para recibir mensajes
+- Agregar buzón para recibir mensajes
 
 ### Historia (Noelia) - [Ver contenido](Historia.md)
-- Fundacion de la iglesia
+- Fundación de la iglesia
 - Historial de Pastores
 
 ### Ministerios (Melina) - [Ver contenido](Ministerios.md)
-- Parrafo que induzca a que se involucren en algun ministerio
+- Párrafo que induzca a que se involucren en algún ministerio
 - Escuela Dominical
 - Ministerio de Alabanza
 - Ministerio de Ujieres
-- Ministerio de Jovenes
-- Ministerio de Diaconos
+- Ministerio de Jóvenes
+- Ministerio de Diáconos
 - Ministerio de Evangelismo
 - Ministerio de Misiones
 
-### Eventos/Actividades (Melina)
-- Descripcion de los tipos de eventos/talleres/capacitaciones
-- Futuros eventos
-- Futuros talleres/capacitaciones
-- Eventos/Talleres/Capacitaciones pasadas
+### Eventos/Actividades (Melina) - [Ver contenido](eventos.md)
+- Cultos de adoración, alabanza y estudio de la palabra
+- Reuniones de oración e intercesión
+- Estudios bíblicos en grupos pequeños
+- Escuela de discipulado
+- Reunión de niños y adolescentes "HORAS FELICES"
+  - Células en diversos puntos de la ciudad (Puerto Arturo, Puerto Tambopata, Upis Tomas Bueno, La Joya, El Triunfo, Av. 15 de agosto)
+- Reuniones de varones
+- Ayunos congregacionales
+- Capacitación y talleres próximos
+  - Curso de misiones (JOCUM)
+  - MARANATA KIDS 2026
 
 ### Misiones (Noelia) - [Ver contenido](Misiones.md)
-- Mision en puerto Nuevo
-- Mision en Loero
+- Misión en Puerto Nuevo
+- Misión en Loero
 
-### Kilo de amor (Ismael) - [Ver contenido](Kilo%20de%20amor.md)
+### Kilo de Amor (Ismael) - [Ver contenido](Kilo%20de%20amor.md)
 - Contacto para recibir donaciones
 - Fotos con las familias beneficiadas
 
 ### Contactos (Ismael) - [Ver contenido](Contactos.md)
-- Ubicacion de la iglesia
-- correo de la iglesia
-- numero de telefonod de la iglesia
+- Ubicación de la iglesia
+- Correo de la iglesia
+- Número de teléfono de la iglesia
 - Redes sociales
-  - facebook
-  - instagram
+  - Facebook
+  - Instagram
 
 ### Features futuras
-- Devocional diarios
+- Devocionales diarios

@@ -3,7 +3,7 @@
 _**Jesús te ama y tiene un propósito para tu vida.**_
 *Él vino a traer luz donde hay oscuridad, consuelo donde hay dolor y esperanza donde parece no haber salida. En cada paso de la vida, Dios desea caminar contigo, guiarte con Su Palabra y llenarte de Su paz. Si sientes el deseo de acercarte más a Él, este es el momento. Abre tu corazón, porque Cristo está llamando. Su amor puede transformar tu historia y darte una vida nueva.*
 
-_(Ejemplo de Versiculo que se actualiza diariamente)  "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna" Juan 3:16_
+_(Ejemplo de Versículo que se actualiza diariamente)  "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna" Juan 3:16_
 
 ## Visión
 _Ser una iglesia llena del Poder del Espíritu Santo, constantes en oración y ayuno. Ser una iglesia misionera como iglesia Madre "Rescatando lo Perdido"_
@@ -32,5 +32,5 @@ No tienes que enfrentar tus luchas solo: Jesús te ama y quiere ayudarte a levan
 [Contáctanos](/Contactos.md)
 
 ### "La mies es mucha pero los obreros pocos" Mateo xxx
-Si sientes en tu corazon colaborar o donar para apoyar en nuestra obra. Escribenos.
-- Agregamos buzon de mensajes
+Si sientes en tu corazón colaborar o donar para apoyar en nuestra obra. Escríbenos.
+- Agregamos buzón de mensajes

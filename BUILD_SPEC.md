@@ -13,6 +13,50 @@ Transformar los archivos de contenido Markdown en una página web estática de u
 3. **Clases CSS consistentes**: Cada tipo de elemento usa clases predefinidas
 4. **Sin interpretación**: El contenido MD se transcribe directamente sin modificaciones
 
+## ⚠️ PASO OBLIGATORIO PREVIO A LA COMPILACIÓN
+
+**ANTES de compilar cualquier archivo .md a index.html, SIEMPRE se debe:**
+
+1. **Revisar ortografía y gramática**: Leer todo el contenido del archivo .md y detectar:
+   - Errores ortográficos (tildes faltantes, palabras mal escritas)
+   - Errores de puntuación (comas, puntos, espacios)
+   - Errores de redacción (concordancia, tiempos verbales)
+   - Uso incorrecto de mayúsculas/minúsculas
+   - Errores comunes en español:
+     * "Lider" → "Líder"
+     * "biblico" → "bíblico"
+     * "jesus" o "Jesùs" → "Jesús"
+     * "y Ismael" → "e Ismael" (cuando la siguiente palabra empieza con "i")
+     * Tildes en palabras agudas, graves y esdrújulas
+     * Espacios antes de signos de puntuación
+
+2. **Sugerir correcciones**: Listar todos los errores encontrados con:
+   - Ubicación exacta (línea o sección)
+   - Error actual
+   - Corrección sugerida
+   - Explicación breve (si es necesario)
+
+3. **Aplicar correcciones**: Una vez aprobadas las sugerencias:
+   - Corregir los errores en el archivo .md fuente
+   - Guardar el archivo .md corregido
+   - **SOLO ENTONCES** proceder con la compilación a index.html
+
+4. **Documentar cambios**: Si se realizaron correcciones ortográficas:
+   - Incluirlas en el mensaje del commit
+   - Ejemplo: "Corregidas 5 faltas ortográficas en Ministerios.md antes de compilar"
+
+### Reglas específicas de corrección:
+
+- **Nunca** corregir nombres propios de personas sin confirmar
+- **Nunca** cambiar el sentido o significado del texto
+- **Siempre** respetar el tono y estilo del contenido original
+- **Siempre** mantener las referencias bíblicas exactamente como están
+- Si hay duda sobre una corrección, consultar antes de aplicar
+
+### Excepción:
+
+La única excepción a esta regla es cuando se está creando contenido nuevo desde cero. En ese caso, escribir directamente con la ortografía y gramática correctas.
+
 ## Estructura General del HTML
 
 ```html
@@ -475,15 +519,22 @@ Las secciones DEBEN aparecer en este orden exacto:
 ## Notas importantes
 
 1. **Placeholders**: Mantener texto como `[Foto del pastor y esposa]` tal cual
-2. **Correcciones ortográficas**: NO corregir, mantener texto original
+2. **Correcciones ortográficas**: Las correcciones se hacen ANTES de compilar (ver sección "PASO OBLIGATORIO PREVIO A LA COMPILACIÓN"). Durante la compilación, el texto ya corregido se transcribe tal cual.
 3. **Direcciones incompletas**: Mantener como `Jr Puno N° 374` (usar número real del archivo)
 4. **Sin interpretación**: Si el MD dice "20xx", dejarlo así en el HTML
 
 ## Verificación de Compilación
 
 Para verificar que la compilación es correcta:
-1. ✅ Todas las secciones están en el orden correcto
-2. ✅ Todas las clases CSS están aplicadas según esta especificación
-3. ✅ El contenido de los MD está completo y sin modificaciones
-4. ✅ La estructura HTML coincide exactamente con los ejemplos
-5. ✅ Los placeholders de imágenes están presentes
+
+### Antes de compilar:
+1. ✅ **Revisión ortográfica y gramatical completada** (errores corregidos en archivos .md)
+2. ✅ Archivos .md guardados con las correcciones aplicadas
+
+### Durante/Después de compilar:
+3. ✅ Todas las secciones están en el orden correcto
+4. ✅ Todas las clases CSS están aplicadas según esta especificación
+5. ✅ El contenido de los MD está completo y sin modificaciones adicionales
+6. ✅ La estructura HTML coincide exactamente con los ejemplos
+7. ✅ Los placeholders de imágenes están presentes
+8. ✅ No se introdujeron nuevos errores ortográficos durante la compilación

@@ -10,9 +10,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **To update content on a specific page:**
 1. Edit the corresponding `.md` file (e.g., `Home.md` for the home page, `Ministerios.md` for ministries)
-2. Manually recompile to `index.html` by reading and following [BUILD_SPEC.md](BUILD_SPEC.md) exactly
-3. Open `index.html` in a browser to verify changes
-4. Commit both the `.md` file and the updated `index.html` together
+2. **Review and correct** spelling/grammar errors in the .md file (mandatory step)
+3. Manually recompile to `index.html` by reading and following [BUILD_SPEC.md](BUILD_SPEC.md) exactly
+4. Open `index.html` in a browser to verify changes
+5. Commit both the `.md` file and the updated `index.html` together
 
 **To change styles:**
 1. Edit `/assets/css/style.css` following [CSS_CLASSES.md](CSS_CLASSES.md)
@@ -101,10 +102,13 @@ This project uses a **manual, deterministic compilation** approach where `.md` f
 ### How to Compile
 
 To manually compile the MD files into index.html:
-1. Read **[BUILD_SPEC.md](BUILD_SPEC.md)** for exact HTML structure and mapping rules
-2. Read **[CSS_CLASSES.md](CSS_CLASSES.md)** for exact CSS class definitions
-3. Follow the specifications exactly - same input must produce same output
-4. Verify using the checklists in both specification files
+1. **FIRST: Review grammar and spelling** - Read the .md file and correct any orthographic, grammatical, or punctuation errors BEFORE compiling (this is mandatory, see BUILD_SPEC.md)
+2. Read **[BUILD_SPEC.md](BUILD_SPEC.md)** for exact HTML structure and mapping rules
+3. Read **[CSS_CLASSES.md](CSS_CLASSES.md)** for exact CSS class definitions
+4. Follow the specifications exactly - same input must produce same output
+5. Verify using the checklists in both specification files
+
+**CRITICAL**: Before every compilation, you MUST review and correct spelling/grammar errors in the source .md files. See the "PASO OBLIGATORIO PREVIO A LA COMPILACIÓN" section in BUILD_SPEC.md for details.
 
 **IMPORTANT**: The compilation is deterministic. Any LLM or human following BUILD_SPEC.md must produce identical HTML output for the same MD inputs.
 
@@ -112,8 +116,9 @@ To manually compile the MD files into index.html:
 
 ### Content Changes
 1. Edit the relevant `.md` file (Home.md, Historia.md, etc.)
-2. Recompile to `index.html` following [BUILD_SPEC.md](BUILD_SPEC.md)
-3. Test locally by opening index.html in a browser
+2. **Review and correct spelling/grammar errors** in the edited .md file (mandatory)
+3. Recompile to `index.html` following [BUILD_SPEC.md](BUILD_SPEC.md)
+4. Test locally by opening index.html in a browser
 
 ### Style Changes
 1. Edit `/assets/css/style.css` following [CSS_CLASSES.md](CSS_CLASSES.md)

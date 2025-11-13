@@ -250,7 +250,7 @@ section {
   font-size: 0.75rem;
   color: var(--color-accent);
   margin: 0;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .nav-toggle {
@@ -305,6 +305,7 @@ section {
 
 .nav-link.active {
   color: var(--color-accent);
+  font-weight: bold;
 }
 
 /* ============================================

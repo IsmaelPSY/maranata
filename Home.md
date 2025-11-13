@@ -31,6 +31,6 @@ En nuestra iglesia encontrarás personas dispuestas a escucharte, orar contigo y
 No tienes que enfrentar tus luchas solo: Jesús te ama y quiere ayudarte a levantarte.
 [Contáctanos](/Contactos.md)
 
-### "La mies es mucha pero los obreros pocos" Mateo xxx
+### "La mies es mucha pero los obreros pocos" Mateo 9:37
 Si sientes en tu corazón colaborar o donar para apoyar en nuestra obra. Escríbenos.
 - Agregamos buzón de mensajes

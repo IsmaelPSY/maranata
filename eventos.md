@@ -29,7 +29,7 @@ TODOS LOS SÀBADOS 6:00 A 7:00PM
 Tiempos de enseñanza bíblica, oración, alabanzas y actividades dinámicas con el objetivo de fortalecer la fe, fomentar valores cristianos, promover la amistad y el compañerismo en un ambiente familiar y de crecimiento espiritual.
 Proverbios 22:6
 “Instruye al niño en su camino, y aun cuando fuere viejo no se apartará de él.”
-Nuestras cèlulas en diversos puntos de nuestra Ciudad:
+Nuestras células en diversos puntos de nuestra Ciudad:
 - Célula de Puerto Arturo "JEHOVÁ GIBBOR"- Localidad de la Comunidad de Puerto Arturo.
 - Célula de Puerto Tambopata "JAHDAI - Ubicado en la loza deportiva de Puerto Tambopata. 
 - Célula de Upis Tomas Bueno "EMMANUEL".
@@ -39,7 +39,7 @@ Nuestras cèlulas en diversos puntos de nuestra Ciudad:
 
 ### Reuniones de varones
 Fomentar la comunión entre hermanos varones, fortalecer la fe y crecer juntos en el conocimiento y práctica de la Palabra de Dios.
-Todos los Lunes 7:00PM - Iglesia Evangélica Maranatha 
+Todos los Lunes 7:30PM - Iglesia Evangélica Maranatha 
 
 ## Ayunos congregacionales
 Días de ayuno dedicados a buscar dirección, renovación espiritual o respuesta a necesidades específicas.
@@ -57,4 +57,9 @@ Inscripciones : 50 Soles
 Lugar: Iglesia Maranata - Av. Dos de mayo, esquina con Jr. Puno
 Informaciòn: Hna.Shierly Peñareal (926311060)
 
-
+### MARANATA KIDS 2026
+Evento próximo "MARANATA KIDS 2026, donde el centro de la enseñanza es presentar, exaltar a Jesús y conocer de su amor. 
+Ven y Celebremos a Jesús juntos este cierre de año lleno de bendiciones. Este encuentro reunirá a niños y adolescentes de nuestra iglesia para compartir un tiempo de alegría, compañerismo y gratitud a Dios. Será una jornada especial de confraternidad, alabanzas y reconocimiento a todos los que participaron activamente durante el año en los distintos ministerios infantiles y juveniles.
+Lugar: Iglesia Evangélica Maranata
+Fecha: Sábado 20 de Diciembre del 2025.
+Hora : 3:30 p.m

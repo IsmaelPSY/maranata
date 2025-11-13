@@ -12,8 +12,8 @@ Lider: Hna. Karina Yucra Salas
 “Instruye al niño en su camino, y aun cuando fuere viejo no se apartará de él.” — Proverbios 22:6
 
 Compartimos la palabra de Dios con niños, adolescentes y nuevos creyentes en edades desde los 0 a 15 años de edad, desarrollando actividades que permitan crecer en el conocimiento biblico y en su relaciòn con Cristo desde temprana edad.
-Ambientes de trabajo:
-- Cuna de 0 a 3 años
+Salones de trabajo:
+- Cuna "Emmanuel de 0 a 3 años
 Lider: Hna. Ana Maria Yucra Salas
 - Estrellitas: 4 a 6 años
 Lider: Hna. Tamar Alicia Frizancho Peña
@@ -25,7 +25,7 @@ Hna. Sonia Ramirez Gastelú
 Hna. Doris Mercado Sanchez
 
 ## Ministerio de Alabanza
-Lider: Hno. Joel Labajos 
+Lider: Hno. Joel Labajos  
 Su propósito es guiar a la congregación en la adoración a Dios a través de la música y el canto, creando un ambiente donde el Espíritu Santo pueda obrar libremente.
 📖 Versículo: “Todo lo que respira alabe a Jehová. ¡Aleluya!” — Salmo 150:6
 

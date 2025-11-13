@@ -84,7 +84,7 @@ Las secciones DEBEN aparecer en este orden exacto:
 ```html
 <footer class="footer">
   <div class="container">
-    <p>&copy; 2024 Iglesia Evangélica Maranata - Puerto Maldonado</p>
+    <p>&copy; 2025 Iglesia Evangélica Maranata - Puerto Maldonado</p>
     <p class="footer-motto">Cristo Viene Pronto</p>
   </div>
 </footer>
@@ -282,8 +282,26 @@ Las secciones DEBEN aparecer en este orden exacto:
    </div>
    ```
 
+   **Caso especial - Escuela Dominical con Ambientes de trabajo:**
+   ```html
+   <div class="ministerio-card">
+     <h3>Escuela Dominical</h3>
+     <p class="ministerio-leader">Líder: [nombre del líder]</p>
+     <p class="ministerio-verse">"[versículo]" — [referencia]</p>
+     <p class="ministerio-description">[descripción]</p>
+     <button class="ambientes-toggle" aria-expanded="false">
+       <strong>Ambientes de trabajo</strong>
+       <span class="toggle-icon">▼</span>
+     </button>
+     <ul class="ministerio-ambientes">
+       <li>[Ambiente] - Líder: [nombre]</li>
+       <!-- Una <li> por cada ambiente -->
+     </ul>
+   </div>
+   ```
+
    Ministerios en orden:
-   1. Escuela Dominical
+   1. Escuela Dominical (con desplegable de Ambientes de trabajo)
    2. Ministerio de Alabanza
    3. Ministerio de Ujieres
    4. Ministerio de Jóvenes

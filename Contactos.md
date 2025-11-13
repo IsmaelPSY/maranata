@@ -2,8 +2,8 @@
 - Correo electronico: segundopedrosanchez763@gmail.com
 - Whatsapp: 913861855
 - Redes sociales
-  - facebook
-  - instagram
+  - [Facebook](https://web.facebook.com/iglesia.maranatha.142/about)
+  - [Instagram](https://www.instagram.com/im.0ficial/#)
 - Nos ubicamos en Jr Puno N°374 con Av. Dos de Mayo N°400
 
 

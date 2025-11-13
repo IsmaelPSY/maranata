@@ -69,4 +69,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Update on load
   updateActiveLink();
+
+  // ============================================
+  // Ambientes de Trabajo Toggle
+  // ============================================
+  const ambientesToggle = document.querySelector('.ambientes-toggle');
+  const ambientesList = document.querySelector('.ministerio-ambientes');
+
+  if (ambientesToggle && ambientesList) {
+    ambientesToggle.addEventListener('click', function() {
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+
+      // Toggle aria-expanded
+      this.setAttribute('aria-expanded', !isExpanded);
+
+      // Toggle active class on list
+      ambientesList.classList.toggle('active');
+    });
+  }
 });

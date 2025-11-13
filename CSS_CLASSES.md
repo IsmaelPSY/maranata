@@ -23,7 +23,7 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
 ### `::-webkit-scrollbar`
 - **Propósito**: Ancho de la barra de scroll (navegadores Webkit: Chrome, Safari, Edge)
 - **Estilos**:
-  - `width: 12px`
+  - `width: 24px`
 
 ### `::-webkit-scrollbar-track`
 - **Propósito**: Fondo/pista del scrollbar
@@ -424,6 +424,47 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
   - `font-size: 0.95rem`
   - `line-height: 1.6`
   - `color: var(--color-text)`
+
+#### `.ambientes-toggle`
+- **Propósito**: Botón desplegable para "Ambientes de trabajo" (Escuela Dominical)
+- **Estilos**:
+  - `width: 100%`
+  - `background: var(--color-bg-light)`
+  - `border: 1px solid var(--color-accent)`
+  - `border-radius: 6px`
+  - `padding: 12px 15px`
+  - `margin-top: 15px`
+  - `display: flex`
+  - `justify-content: space-between`
+  - `align-items: center`
+  - `cursor: pointer`
+  - `font-family: 'Open Sans', sans-serif`
+  - `font-size: 0.95rem`
+  - `color: var(--color-text)`
+  - `transition: background-color 0.3s ease`
+  - **Hover**: `background: #E5E7EB`
+  - `strong`: `color: var(--color-primary)`
+
+#### `.toggle-icon`
+- **Propósito**: Ícono de flecha en el botón desplegable
+- **Estilos**:
+  - `transition: transform 0.3s ease`
+  - `color: var(--color-accent)`
+  - `font-size: 1rem`
+  - **Cuando aria-expanded="true"**: `transform: rotate(180deg)`
+
+#### `.ministerio-ambientes`
+- **Propósito**: Lista de ambientes de trabajo (inicialmente oculta)
+- **Estilos**:
+  - `list-style: none`
+  - `padding-left: 0`
+  - `margin-top: 15px`
+  - `max-height: 0`
+  - `overflow: hidden`
+  - `transition: max-height 0.4s ease, opacity 0.4s ease`
+  - `opacity: 0`
+  - **Cuando activa** (`.ministerio-ambientes.active`): `max-height: 500px`, `opacity: 1`
+  - `li`: `padding: 8px 0`, `padding-left: 15px`, `border-left: 2px solid var(--color-accent)`, `margin: 8px 0`, `font-size: 0.9rem`, `color: var(--color-text-light)`
 
 ### Sección Misiones
 

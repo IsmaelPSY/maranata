@@ -2,6 +2,25 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## ⚠️ CRITICAL RULE
+
+**NEVER edit `index.html` directly.** It is a compiled output file. Always edit the source `.md` files (Home.md, Historia.md, etc.) and then manually recompile to index.html by following [BUILD_SPEC.md](BUILD_SPEC.md).
+
+## Quick Start
+
+**To update content on a specific page:**
+1. Edit the corresponding `.md` file (e.g., `Home.md` for the home page, `Ministerios.md` for ministries)
+2. Manually recompile to `index.html` by reading and following [BUILD_SPEC.md](BUILD_SPEC.md) exactly
+3. Open `index.html` in a browser to verify changes
+4. Commit both the `.md` file and the updated `index.html` together
+
+**To change styles:**
+1. Edit `/assets/css/style.css` following [CSS_CLASSES.md](CSS_CLASSES.md)
+2. Refresh browser to see changes
+
+**To view the site:**
+- Simply open `index.html` in any modern browser (no server needed)
+
 ## Project Overview
 
 This is a single-page static website for Iglesia Evangelica Maranata in Puerto Maldonado, Peru. The entire site is contained in one index.html file with internal navigation between sections using anchor links. Built with pure HTML, CSS, and JavaScript (no backend, no database, no build process). The project is collaborative, with team members (Ismael, Noelia, Melina) working on different sections.
@@ -69,9 +88,9 @@ The website is a single-page application with anchor-based navigation. Content s
 - **Workflow**: Edit .md files → Recompile to index.html → Test in browser → Commit both
 - **Important**: When updating content, ALWAYS edit the .md files first, never edit index.html directly
 
-## Build Process (Deterministic Compilation)
+## Build Process (Manual Deterministic Compilation)
 
-This project uses a **deterministic compilation** approach where `.md` files are compiled into `index.html`:
+This project uses a **manual, deterministic compilation** approach where `.md` files are compiled into `index.html`. There are **no automated build tools** (no npm scripts, webpack, etc.). Compilation is done manually by Claude Code or a developer following the specification documents.
 
 1. **Source Files**: Content in `.md` files (Home.md, Historia.md, etc.)
 2. **Compilation Specs**:
@@ -81,7 +100,7 @@ This project uses a **deterministic compilation** approach where `.md` files are
 
 ### How to Compile
 
-To compile the MD files into index.html:
+To manually compile the MD files into index.html:
 1. Read **[BUILD_SPEC.md](BUILD_SPEC.md)** for exact HTML structure and mapping rules
 2. Read **[CSS_CLASSES.md](CSS_CLASSES.md)** for exact CSS class definitions
 3. Follow the specifications exactly - same input must produce same output

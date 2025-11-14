@@ -1,0 +1,46 @@
+# robots.txt para Iglesia Evangélica Maranata Puerto Maldonado
+# https://www.maranata.cc/
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /galeria/
+
+Disallow: /assets/js/
+Disallow: /.git/
+
+# Sitemaps
+Sitemap: https://www.maranata.cc/sitemap.xml
+
+# Crawl-delay para bots educados
+Crawl-delay: 1
+
+# Directivas específicas para principales motores de búsqueda
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# ChatGPT / OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Permitir otros crawlers de IA
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /

@@ -177,26 +177,32 @@ section {
 
 .section-historia {
   background: var(--color-bg-light);
+  padding: 44px 0 58px 0;
 }
 
 .section-ministerios {
   background: white;
+  padding: 44px 0 58px 0;
 }
 
 .section-eventos {
   background: var(--color-bg-light);
+  padding: 44px 0 58px 0;
 }
 
 .section-misiones {
   background: white;
+  padding: 44px 0 58px 0;
 }
 
 .section-kilo-amor {
   background: var(--color-bg-light);
+  padding: 44px 0 58px 0;
 }
 
 .section-contactos {
   background: white;
+  padding: 44px 0 58px 0;
 }
 
 /* ============================================
@@ -951,6 +957,15 @@ section {
     padding: 65px 0 85px 0;
   }
 
+  .section-historia,
+  .section-ministerios,
+  .section-eventos,
+  .section-misiones,
+  .section-kilo-amor,
+  .section-contactos {
+    padding: 55px 0 72px 0;
+  }
+
   .section-title {
     font-size: 2.5rem;
   }
@@ -999,6 +1014,15 @@ section {
 @media (min-width: 1024px) {
   .section {
     padding: 78px 0 102px 0;
+  }
+
+  .section-historia,
+  .section-ministerios,
+  .section-eventos,
+  .section-misiones,
+  .section-kilo-amor,
+  .section-contactos {
+    padding: 66px 0 87px 0;
   }
 
   .hero-title {

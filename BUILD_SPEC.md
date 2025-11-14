@@ -90,7 +90,7 @@ Las secciones DEBEN aparecer en este orden exacto:
 3. `<section id="historia">` - Compilado desde `Historia.md`
 4. `<section id="ministerios">` - Compilado desde `Ministerios.md`
 5. `<section id="misiones">` - Compilado desde `Misiones.md`
-6. `<section id="kilo-amor">` - Compilado desde `Kilo de amor.md`
+6. ~~`<section id="kilo-amor">` - Compilado desde `Kilo de amor.md`~~ **DESHABILITADA - NO COMPILAR**
 7. `<section id="contactos">` - Compilado desde `Contactos.md`
 8. `<footer>` - Footer (estructura fija)
 
@@ -115,8 +115,9 @@ Las secciones DEBEN aparecer en este orden exacto:
       <li><a href="#home" class="nav-link active">Inicio</a></li>
       <li><a href="#historia" class="nav-link">Historia</a></li>
       <li><a href="#ministerios" class="nav-link">Ministerios</a></li>
+      <li><a href="#eventos" class="nav-link">Eventos</a></li>
       <li><a href="#misiones" class="nav-link">Misiones</a></li>
-      <li><a href="#kilo-amor" class="nav-link">Kilo de Amor</a></li>
+      <!-- <li><a href="#kilo-amor" class="nav-link">Kilo de Amor</a></li> DESHABILITADA -->
       <li><a href="#contactos" class="nav-link">Contactos</a></li>
     </ul>
   </div>
@@ -393,46 +394,18 @@ Las secciones DEBEN aparecer en este orden exacto:
    </div>
    ```
 
-### 5. Kilo de amor.md → section#kilo-amor
+### 5. ~~Kilo de amor.md → section#kilo-amor~~ **SECCIÓN DESHABILITADA - NO COMPILAR**
 
-**Estructura HTML:**
+**NOTA:** Esta sección ha sido deshabilitada y NO debe incluirse en futuras compilaciones de index.html. El archivo fuente `Kilo de amor.md` se mantiene para referencia futura, pero no se compila.
+
+~~**Estructura HTML:**~~
 ```html
+<!-- SECCIÓN DESHABILITADA - NO INCLUIR EN COMPILACIÓN
 <section id="kilo-amor" class="section section-kilo-amor">
-  <div class="container">
-    <h2 class="section-title">Kilo de Amor</h2>
-    <div class="kilo-content">
-      <!-- Contenido -->
-    </div>
-  </div>
+  ...
 </section>
+-->
 ```
-
-**Reglas de compilación:**
-
-1. **Párrafos introductorios**:
-   ```html
-   <p class="kilo-intro">[primer párrafo]</p>
-   <p>[segundo párrafo]</p>
-   ```
-
-2. **Versículo** (línea con `_**"Y no nos cansemos...`):
-   ```html
-   <p class="kilo-verse"><strong>"[versículo]" – [referencia]</strong></p>
-   ```
-
-3. **Información de donaciones**:
-   ```html
-   <div class="kilo-donation">
-     <p>[contenido sobre ubicación]</p>
-   </div>
-   ```
-
-4. **Placeholder de fotos**:
-   ```html
-   <div class="kilo-photos-placeholder">
-     <p>[Fotos de las familias beneficiadas]</p>
-   </div>
-   ```
 
 ### 6. Contactos.md → section#contactos
 

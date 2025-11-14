@@ -70,11 +70,11 @@ The website is a single-page application with anchor-based navigation. Content s
 
 1. **Home** (Home.md → #home) - Main landing page with welcome, mission/vision, pastor info, and service schedule
 2. **Historia** (Historia.md → #historia) - Church history and pastors timeline
-3. **Ministerios** (Ministerios.md → #ministerios) - Seven church ministries with leaders
-4. **Misiones** (Misiones.md → #misiones) - Mission work in Puerto Nuevo and Loero communities
-5. **Kilo de Amor** (Kilo de amor.md → #kilo-amor) - Food donation program
-6. **Contactos** (Contactos.md → #contactos) - Contact information and location
-7. **Eventos/Actividades** (eventos.md - planned, not yet compiled)
+3. **Ministerios** (Ministerios.md → #ministerios) - Church ministries with leaders
+4. **Eventos** (eventos.md → #eventos) - Events and activities
+5. **Misiones** (Misiones.md → #misiones) - Mission work in Puerto Nuevo and Loero communities
+6. ~~**Kilo de Amor**~~ (Kilo de amor.md - **DESHABILITADA, NO COMPILAR**)
+7. **Contactos** (Contactos.md → #contactos) - Contact information and location
 
 ### Navigation
 - Fixed navbar with logo and menu links
@@ -128,9 +128,17 @@ To manually compile the MD files into index.html:
 - `/assets/css/` - Stylesheets (style.css)
 - `/assets/img/` - Images (logo_maranata.png, pastor_y_pastora.jpg, etc.)
 - `/assets/js/` - JavaScript (script.js handles mobile nav and active section highlighting)
+- `/galeria/` - Photo gallery images (used for events, missions, and activities)
 
 ### Testing Locally
 Simply open `index.html` in any modern browser. No build process or server required since this is a pure static site.
+
+**Testing checklist after changes:**
+- ✅ All sections display correctly
+- ✅ Navigation works (mobile hamburger menu, smooth scroll, active highlighting)
+- ✅ Responsive design works (test at 768px and 1024px breakpoints)
+- ✅ Images load properly
+- ✅ No console errors in browser DevTools
 
 ### Git Workflow
 - Commit changes to `.md` files and compiled `index.html` together
@@ -147,7 +155,7 @@ From README.md:
 ## Team Structure
 
 Content ownership by section (from README.md):
-- Ismael: Home, Kilo de Amor, Contactos
+- Ismael: Home, ~~Kilo de Amor (deshabilitada)~~, Contactos
 - Noelia: Historia, Misiones
 - Melina: Ministerios, Eventos/Actividades
 
@@ -159,3 +167,13 @@ Content ownership by section (from README.md):
 - **Browser Compatibility**: Modern browsers only (uses CSS Grid, custom properties, smooth scroll)
 - **Mobile-First**: Responsive breakpoints at 768px (tablet) and 1024px (desktop)
 - **Images**: Logo at `/assets/img/logo_maranata.png`, pastor photo at `/assets/img/pastor_y_pastora.jpg`
+- **Gallery**: Event and mission photos stored in `/galeria/` directory (includes Maranata Kids, missions, anniversaries, etc.)
+
+## JavaScript Functionality
+
+The site uses vanilla JavaScript (`/assets/js/script.js`) for three main features:
+1. **Mobile menu toggle** - Hamburger button opens/closes navigation on mobile
+2. **Active section highlighting** - Navbar link highlights based on scroll position
+3. **Ambientes toggle** - Expandable "Ambientes de trabajo" section in Ministerios
+
+No JavaScript frameworks or libraries are used. All functionality is implemented with pure DOM manipulation.

@@ -166,7 +166,7 @@ section {
 }
 
 .section {
-  padding: 80px 0;
+  padding: 52px 0 68px 0;
   min-height: auto;
 }
 
@@ -525,6 +525,11 @@ section {
   color: var(--color-primary);
   font-family: 'Poppins', sans-serif;
   margin-top: 0;
+}
+
+.history-item p {
+  margin-bottom: 20px;
+  line-height: 1.8;
 }
 
 .pastor-list {
@@ -943,7 +948,7 @@ section {
   }
 
   .section {
-    padding: 100px 0;
+    padding: 65px 0 85px 0;
   }
 
   .section-title {
@@ -993,7 +998,7 @@ section {
    ============================================ */
 @media (min-width: 1024px) {
   .section {
-    padding: 120px 0;
+    padding: 78px 0 102px 0;
   }
 
   .hero-title {

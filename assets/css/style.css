@@ -9,7 +9,7 @@
 :root {
   --color-primary: #1E3A8A;      /* Azul profundo */
   --color-secondary: #FFFFFF;     /* Blanco */
-  --color-accent: #D97706;        /* Dorado suave */
+  --color-accent: #F97316;        /* Naranja vibrante */
   --color-text: #1F2937;          /* Gris oscuro para texto */
   --color-text-light: #6B7280;    /* Gris claro para texto secundario */
   --color-bg-light: #F9FAFB;      /* Fondo claro para secciones alternas */
@@ -41,7 +41,7 @@ ul {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
-  background: rgba(217, 119, 6, 0.03);
+  background: rgba(249, 115, 22, 0.03);
   border-left: 3px solid var(--color-accent);
   border-radius: 6px;
   padding: 15px 20px;
@@ -506,7 +506,7 @@ section {
 }
 
 .btn:hover {
-  background: #B45309;
+  background: #EA580C;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -609,7 +609,7 @@ section {
   font-style: italic;
   margin: 15px 0;
   padding: 10px;
-  background: rgba(217, 119, 6, 0.05);
+  background: rgba(249, 115, 22, 0.05);
   border-left: 3px solid var(--color-accent);
   border-radius: 4px;
 }
@@ -734,13 +734,13 @@ section {
   font-style: italic;
   margin: 15px 0;
   padding: 12px;
-  background: rgba(217, 119, 6, 0.08);
+  background: rgba(249, 115, 22, 0.08);
   border-left: 3px solid var(--color-accent);
   border-radius: 4px;
 }
 
 .evento-destacado {
-  background: linear-gradient(135deg, rgba(30, 58, 138, 0.05), rgba(217, 119, 6, 0.05));
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.05), rgba(249, 115, 22, 0.05));
   border-left: 4px solid var(--color-primary);
 }
 
@@ -823,7 +823,7 @@ section {
   color: var(--color-accent);
   margin: 30px 0;
   padding: 20px;
-  background: rgba(217, 119, 6, 0.05);
+  background: rgba(249, 115, 22, 0.05);
   border-radius: 8px;
 }
 

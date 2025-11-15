@@ -1,4 +1,4 @@
-# Especificación de Clases CSS - Iglesia Maranata
+# Especificación de Clases CSS - Iglesia Evangélica Maranata
 
 Este documento define todas las clases CSS utilizadas en el proyecto, su propósito y cómo deben ser estilizadas. Esta especificación garantiza que cualquier implementación produzca estilos consistentes y deterministas.
 
@@ -7,7 +7,7 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
 ```css
 --color-primary: #1E3A8A;      /* Azul profundo */
 --color-secondary: #FFFFFF;     /* Blanco */
---color-accent: #D97706;        /* Dorado suave */
+--color-accent: #F97316;        /* Naranja vibrante */
 --color-text: #1F2937;          /* Gris oscuro para texto */
 --color-text-light: #6B7280;    /* Gris claro para texto secundario */
 --color-bg-light: #F9FAFB;      /* Fondo claro para secciones alternas */
@@ -26,8 +26,8 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
   - `list-style: none` (remueve viñetas por defecto)
   - `padding-left: 0`
   - `margin-left: 0`
-  - `background: rgba(217, 119, 6, 0.03)` (fondo dorado muy sutil)
-  - `border-left: 3px solid var(--color-accent)` (borde dorado)
+  - `background: rgba(249, 115, 22, 0.03)` (fondo naranja muy sutil)
+  - `border-left: 3px solid var(--color-accent)` (borde naranja)
   - `border-radius: 6px`
   - `padding: 15px 20px`
   - `margin-bottom: 20px`
@@ -403,7 +403,7 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
   - `font-weight: 600`
   - `transition: all 0.3s`
   - `margin-top: 15px`
-  - **Hover**: `background: #B45309`, `transform: translateY(-2px)`, `box-shadow: 0 4px 8px rgba(0,0,0,0.2)`
+  - **Hover**: `background: #EA580C`, `transform: translateY(-2px)`, `box-shadow: 0 4px 8px rgba(0,0,0,0.2)`
 
 ### Sección Historia
 
@@ -483,7 +483,7 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
   - `font-style: italic`
   - `margin: 15px 0`
   - `padding: 10px`
-  - `background: rgba(217, 119, 6, 0.05)`
+  - `background: rgba(249, 115, 22, 0.05)`
   - `border-left: 3px solid var(--color-accent)`
   - `border-radius: 4px`
 
@@ -580,7 +580,7 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
   - `color: var(--color-accent)`
   - `margin: 30px 0`
   - `padding: 20px`
-  - `background: rgba(217, 119, 6, 0.05)`
+  - `background: rgba(249, 115, 22, 0.05)`
   - `border-radius: 8px`
 
 #### `.kilo-donation`

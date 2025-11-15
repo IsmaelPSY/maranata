@@ -7,6 +7,8 @@ Se preparo todo para el viaje al Perú. Llegaron a Lima, luego a Tocache, despu�
 Se prepararon para el viaje a la ciudad de Puerto Maldonado en el mes de Julio del 1967. Luego de evangelizar a las personas del lugar se dio inicio a las reuniones con un pequeño grupo. Se reunían para realizar los cultos en un patio de la casa de don Cristóbal Flores y esposa Delicia de Flores en la esquina del Jr. 26 de diciembre con Jr. Cusco. Al pasar los años el evangelio se extendió por todas las carreteras norte a sur del departamento de Madre de Dios. Los hermanos Cervillon Chacon, Bernardino Pichardo y Luis Osco fueron los primeros hermanos misioneros de extender el evangelio en la sierra de Ocongate, Yanama, Tinke y otros lugares. Los primeros pastores nacionales dedicados fueron Alfredo Condori Mercado (Puerto Maldonado), Cervillon Chacon (Coponiri) y Luis Osco (Zonas Mineras). Los primeros ancianos fueron Cornelio Ruiz, Simon Paredes Sangio, Fructuoso Vargas Charuhuayp y Jose Benjamin Llera Tangoa y Marcelino Chaca Cahuana.
 Creación del templo, primer pastor: Pedro Condori.
 
+**Referencia:** Yzquierdo-Diaz, E. _50 Años Iglesia Evangélica MARANATA_.
+
 ## Historial de Pastores 
 Primer Pastor: Alfredo Condori Mercado (1979-1983)
 Jose Benjamin Lleras Tangoa (1983-1987)

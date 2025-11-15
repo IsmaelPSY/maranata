@@ -54,7 +54,7 @@ Efesios 3:17 "para que habite Cristo por la fe en vuestros corazones, a fin de q
 Fecha: 17 de Noviembre al 05 de Diciembre (Lunes,Martes, Miercoles y Viernes) 
 Horario: 7:00 a 9:00 PM
 Inscripciones: 50 Soles
-Lugar: Iglesia Maranata - Av. Dos de Mayo, esquina con Jr. Puno
+Lugar: Iglesia Evangélica Maranata - Av. Dos de Mayo, esquina con Jr. Puno
 Información: Hna. Shierly Peñareal (926311060)
 
 ### MARANATA KIDS 2026

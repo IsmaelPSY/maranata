@@ -1,4 +1,4 @@
-# Especificación de Compilación - Iglesia Maranata
+# Especificación de Compilación - Iglesia Evangélica Maranata
 
 Este documento define de forma determinista cómo compilar los archivos Markdown (`.md`) en el archivo `index.html`. Cualquier implementación (humana o LLM) debe seguir estas reglas exactamente para producir el mismo resultado.
 
@@ -100,9 +100,9 @@ Las secciones DEBEN aparecer en este orden exacto:
 <nav class="navbar">
   <div class="nav-container">
     <div class="nav-logo">
-      <img src="./assets/img/logo_maranata.png" alt="Logo Iglesia Maranata" class="nav-logo-img">
+      <img src="./assets/img/logo_maranata.png" alt="Logo Iglesia Evangélica Maranata" class="nav-logo-img">
       <div class="nav-logo-text">
-        <h2>Iglesia Maranata</h2>
+        <h2>Iglesia Evangélica Maranata</h2>
         <p class="nav-motto">Cristo Viene Pronto</p>
       </div>
     </div>

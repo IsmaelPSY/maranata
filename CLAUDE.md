@@ -58,7 +58,7 @@ This is a single-page static website for Iglesia Evangelica Maranata in Puerto M
 Color Palette (from AGENTES.md):
 - Primary: Deep blue (#1E3A8A)
 - Secondary: White
-- Accent: Soft gold (#D97706)
+- Accent: Vibrant orange (#F97316)
 
 Typography:
 - Headlines: Poppins

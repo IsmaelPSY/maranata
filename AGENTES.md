@@ -1,7 +1,7 @@
 ## Paleta de colores
 - Color principal: azul profundo (#1E3A8A)
 - Color secundario: blanco
-- Color de acento: dorado suave (#D97706)
+- Color de acento: naranja vibrante (#F97316)
 
 ## Tipografía
 - Titulares: Poppins 

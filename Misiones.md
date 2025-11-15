@@ -50,7 +50,7 @@ Se fundó un grupo de hermanos que decidieron ir como misioneros como obediencia
 Y  pastores de otras ciudades del Perú que también tomaron la decisión de acompañarnos en esta misión. 
 - Agradecimientos
 Hermanos misioneros:
-York 
+York Mazabel
 Bryan Carlos
 Tamar Frisancho
 Gerald Gomez
@@ -59,10 +59,10 @@ Ana Maria Yucra
 Hilton Gomez
 Doris Mercado
 Angel M. Romero
+Misionero Charles Castro (Lima)
 Pastores misioneros:
 Ps. Pedro Sanchez
-Ps. Pedro Flores
-Ps. Charles
+Ps. Pedro Flores (Tarapoto)
 Y a todos los hermanos que fueron participes en esta obra con sus donaciones u otras formas de apoyo y colaboracion. Estamos muy agradecidos con todos ellos y que sin su ayuda esto no se haya hecho posible, Dios les siga bendiciendo mucho más y les siga usando como bendicion.     
 
 

@@ -604,6 +604,96 @@ Este documento define todas las clases CSS utilizadas en el proyecto, su propós
   - `text-align: center`
   - `margin-top: 40px`
 
+### Sección Galería
+
+#### `.galeria-intro`
+- **Propósito**: Texto introductorio de la galería
+- **Estilos**:
+  - `text-align: center`
+  - `max-width: 800px`
+  - `margin: 0 auto 40px auto`
+  - `line-height: 1.7`
+  - `color: var(--color-text)`
+
+#### `.carousel`
+- **Propósito**: Contenedor principal del carrusel
+- **Estilos**:
+  - `position: relative`
+  - `max-width: 900px`
+  - `margin: 40px auto`
+  - `overflow: hidden`
+
+#### `.carousel-container`
+- **Propósito**: Contenedor del área visible del carrusel
+- **Estilos**:
+  - `overflow: hidden`
+  - `border-radius: 10px`
+  - `box-shadow: 0 4px 20px rgba(0,0,0,0.15)`
+
+#### `.carousel-track`
+- **Propósito**: Pista que contiene todas las slides
+- **Estilos**:
+  - `display: flex`
+  - `transition: transform 0.5s ease-in-out`
+
+#### `.carousel-slide`
+- **Propósito**: Cada slide individual del carrusel
+- **Estilos**:
+  - `min-width: 100%`
+  - `display: flex`
+  - `flex-direction: column` (imagen y leyenda apiladas; la leyenda queda debajo)
+  - `justify-content: center`
+  - `align-items: center`
+  - `background: var(--color-bg-light)`
+  - `img`: `width: 100%`, `height: auto`, `max-height: 600px`, `object-fit: contain`, `display: block`
+  - `p.carousel-caption`: `text-align: center`, `padding: 15px 20px`, `background: white`, `color: var(--color-text)`, `font-size: 0.95rem`, `font-weight: 600`, `border-top: 3px solid var(--color-accent)`, `width: 100%`, `box-sizing: border-box`
+
+#### `.carousel-btn`
+- **Propósito**: Botones de navegación del carrusel (anterior/siguiente)
+- **Estilos**:
+  - `position: absolute`
+  - `top: 50%`
+  - `transform: translateY(-50%)`
+  - `background: rgba(30, 58, 138, 0.7)`
+  - `color: white`
+  - `border: none`
+  - `padding: 15px 20px`
+  - `cursor: pointer`
+  - `font-size: 1.5rem`
+  - `transition: background 0.3s`
+  - `z-index: 10`
+  - `border-radius: 4px`
+  - **Hover**: `background: rgba(30, 58, 138, 0.9)`
+
+#### `.carousel-btn-prev`
+- **Propósito**: Botón anterior (izquierda)
+- **Estilos**:
+  - `left: 10px`
+
+#### `.carousel-btn-next`
+- **Propósito**: Botón siguiente (derecha)
+- **Estilos**:
+  - `right: 10px`
+
+#### `.carousel-indicators`
+- **Propósito**: Contenedor de indicadores de posición
+- **Estado actual**: Indicadores deshabilitados/ocultos por defecto
+- **Estilos**:
+  - `display: none` (mantener el contenedor en el DOM para compatibilidad futura)
+
+#### `.carousel-indicator`
+- **Propósito**: Botón indicador individual
+- **Estilos**:
+  - `width: 12px`
+  - `height: 12px`
+  - `border-radius: 50%`
+  - `border: 2px solid var(--color-accent)`
+  - `background: white`
+  - `cursor: pointer`
+  - `transition: all 0.3s`
+  - **Hover**: `background: var(--color-accent)`, `border-color: var(--color-accent)`
+  - **Active** (`.carousel-indicator.active`): `background: var(--color-accent)`, `border-color: var(--color-accent)`
+
 ### Sección Contactos
 
 #### `.contact-grid`

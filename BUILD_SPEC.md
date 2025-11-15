@@ -89,10 +89,12 @@ Las secciones DEBEN aparecer en este orden exacto:
 2. `<section id="home">` - Compilado desde `Home.md`
 3. `<section id="historia">` - Compilado desde `Historia.md`
 4. `<section id="ministerios">` - Compilado desde `Ministerios.md`
-5. `<section id="misiones">` - Compilado desde `Misiones.md`
-6. ~~`<section id="kilo-amor">` - Compilado desde `Kilo de amor.md`~~ **DESHABILITADA - NO COMPILAR**
-7. `<section id="contactos">` - Compilado desde `Contactos.md`
-8. `<footer>` - Footer (estructura fija)
+5. `<section id="eventos">` - Compilado desde `eventos.md`
+6. `<section id="misiones">` - Compilado desde `Misiones.md`
+7. `<section id="galeria">` - Compilado desde `Galeria.md`
+8. ~~`<section id="kilo-amor">` - Compilado desde `Kilo de amor.md`~~ **DESHABILITADA - NO COMPILAR**
+9. `<section id="contactos">` - Compilado desde `Contactos.md`
+10. `<footer>` - Footer (estructura fija)
 
 ## Estructura de Navegación (Fija)
 
@@ -117,6 +119,7 @@ Las secciones DEBEN aparecer en este orden exacto:
       <li><a href="#ministerios" class="nav-link">Ministerios</a></li>
       <li><a href="#eventos" class="nav-link">Eventos</a></li>
       <li><a href="#misiones" class="nav-link">Misiones</a></li>
+      <li><a href="#galeria" class="nav-link">Galería</a></li>
       <!-- <li><a href="#kilo-amor" class="nav-link">Kilo de Amor</a></li> DESHABILITADA -->
       <li><a href="#contactos" class="nav-link">Contactos</a></li>
     </ul>
@@ -394,7 +397,47 @@ Las secciones DEBEN aparecer en este orden exacto:
    </div>
    ```
 
-### 5. ~~Kilo de amor.md → section#kilo-amor~~ **SECCIÓN DESHABILITADA - NO COMPILAR**
+### 5. Galeria.md → section#galeria
+
+**Estructura HTML:**
+```html
+<section id="galeria" class="section section-galeria">
+  <div class="container">
+    <h2 class="section-title">Galería</h2>
+    <p class="galeria-intro">[Párrafo introductorio]</p>
+
+    <!-- Carrusel de imágenes -->
+    <div class="carousel">
+      <div class="carousel-container">
+        <div class="carousel-track">
+          <!-- Cada imagen de la carpeta ./galeria/ con su descripción debajo -->
+          <div class="carousel-slide">
+            <img src="./galeria/[nombre-imagen]" alt="[descripción]">
+            <p class="carousel-caption">[descripción]</p>
+          </div>
+          <!-- Repetir para cada imagen -->
+        </div>
+      </div>
+      <button class="carousel-btn carousel-btn-prev" aria-label="Imagen anterior">❮</button>
+      <button class="carousel-btn carousel-btn-next" aria-label="Siguiente imagen">❯</button>
+      <!-- Indicadores deshabilitados/ocultos por defecto -->
+      <div class="carousel-indicators"></div>
+    </div>
+  </div>
+</section>
+```
+
+**Reglas de compilación:**
+
+1. **Párrafo introductorio**: Tomar el primer párrafo de Galeria.md
+2. **Imágenes del carrusel**: Incluir todas las imágenes JPEG/JPG de `./galeria/` (excluir videos). Cada slide debe contener:
+   - `<img>` con su `alt`
+   - `<p class="carousel-caption">` inmediatamente después de la imagen con el mismo texto que el `alt`
+3. **Orden de imágenes**: Orden alfabético por nombre de archivo
+4. **Alt text**: Usar el nombre del archivo sin extensión y con espacios en lugar de guiones/underscores
+5. **Indicadores**: Deshabilitados/ocultos por defecto. No generar botones; dejar `<div class="carousel-indicators"></div>` vacío (CSS los oculta por determinismo)
+
+### 6. ~~Kilo de amor.md → section#kilo-amor~~ **SECCIÓN DESHABILITADA - NO COMPILAR**
 
 **NOTA:** Esta sección ha sido deshabilitada y NO debe incluirse en futuras compilaciones de index.html. El archivo fuente `Kilo de amor.md` se mantiene para referencia futura, pero no se compila.
 
@@ -407,7 +450,7 @@ Las secciones DEBEN aparecer en este orden exacto:
 -->
 ```
 
-### 6. Contactos.md → section#contactos
+### 7. Contactos.md → section#contactos
 
 **Estructura HTML:**
 ```html

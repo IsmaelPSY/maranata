@@ -87,4 +87,79 @@ document.addEventListener('DOMContentLoaded', function() {
       ambientesList.classList.toggle('active');
     });
   }
+
+  // ============================================
+  // Carousel Gallery
+  // ============================================
+  const track = document.querySelector('.carousel-track');
+  const slides = Array.from(document.querySelectorAll('.carousel-slide'));
+  const nextButton = document.querySelector('.carousel-btn-next');
+  const prevButton = document.querySelector('.carousel-btn-prev');
+  const indicatorsContainer = document.querySelector('.carousel-indicators');
+
+  if (track && slides.length > 0) {
+    let currentIndex = 0;
+
+    // Create indicators dynamically
+    slides.forEach((_, index) => {
+      const indicator = document.createElement('button');
+      indicator.classList.add('carousel-indicator');
+      indicator.setAttribute('aria-label', `Ir a imagen ${index + 1}`);
+      if (index === 0) {
+        indicator.classList.add('active');
+      }
+      indicator.addEventListener('click', () => {
+        currentIndex = index;
+        updateCarousel();
+      });
+      indicatorsContainer.appendChild(indicator);
+    });
+
+    const indicators = Array.from(document.querySelectorAll('.carousel-indicator'));
+
+    // Update carousel position and indicators
+    function updateCarousel() {
+      const slideWidth = slides[0].getBoundingClientRect().width;
+      track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+
+      // Update active indicator
+      indicators.forEach((indicator, index) => {
+        indicator.classList.toggle('active', index === currentIndex);
+      });
+    }
+
+    // Next button
+    if (nextButton) {
+      nextButton.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateCarousel();
+      });
+    }
+
+    // Previous button
+    if (prevButton) {
+      prevButton.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        updateCarousel();
+      });
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') {
+        prevButton?.click();
+      } else if (e.key === 'ArrowRight') {
+        nextButton?.click();
+      }
+    });
+
+    // Update on window resize
+    window.addEventListener('resize', updateCarousel);
+
+    // Auto-play carousel (optional - uncomment to enable)
+    // setInterval(() => {
+    //   currentIndex = (currentIndex + 1) % slides.length;
+    //   updateCarousel();
+    // }, 5000); // Change image every 5 seconds
+  }
 });
